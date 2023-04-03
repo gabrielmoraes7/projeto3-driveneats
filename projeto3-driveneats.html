@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
+    <title>DrivenEats</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="topo">
+            <div class="logo">
+                <h1 class="title">DrivenEats</h1>
+                <h2>Sua comida em 6 minutos</h2>
+            </div>
+        </div>
+
+        <div class="produtos">
+            <div class="container-comida">
+                <h1 class="destaque">Primeiro, seu prato</h1>
+                <div class="comida">
+                    
+                    <div onclick="select('.comida', '.prato-principal-1')" class="prato-principal prato-principal-1">
+                        <img src="./assets/batata.jpeg">
+                        <div>
+                            <h2>Batata recheada</h2>
+                            <p class="descricao">Batata recheada com bacon e cheddar</p>
+                            <div class="preco-caixa">
+                                <div class="preco display">R$
+                                    <p class="preco main">23,40</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div onclick="select('.comida', '.prato-principal-4')" class="prato-principal prato-principal-4">
+                        <img src="./assets/peixe.jpg">
+                        <div>
+                            <h2>File de Peixe</h2>
+                            <p class="descricao">File de merlusa</p>
+                            <div class="preco-caixa">
+                                <div class="preco display">R$
+                                    <p class="preco main">32,40</p>
+                                </div>
+                             </div>                        
+                        </div>
+                    </div>
+
+                    <div onclick="select('.comida', '.prato-principal-6')" class="prato-principal prato-principal-6">
+                        <img src="./assets/strogonoff.jpg">
+                        <div>
+                            <h2>Strognoff</h2>
+                            <p class="descricao">Strognoff de Frango com batata palha</p>
+                            <div class="preco-caixa">
+                                <div class="preco display">R$
+                                    <p class="preco main">22,40</p>
+                                </div>
+                            </div>                        
+                        </div>
+                    </div>
+
+                    <div onclick="select('.comida', '.prato-principal-7')" class="prato-principal prato-principal-7">
+                        <img src="./assets/sushi.jpg">
+                        <div>
+                            <h2>Sushi</h2>
+                            <p class="descricao">Diferentes peças disponiveis</p>
+                            <div class="preco-caixa">
+                                <div class="preco display">R$
+                                    <p class="preco main">22,40</p>
+                                </div>
+                            </div>                        
+                        </div>
+                    </div>
+ 
+                </div>
+            </div>
+
+            <div class="container-bebida">
+                <h1 class="destaque">Agora, sua bebida</h1>
+                <div class="bebidas">
+
+                    <div onclick="select('.bebidas', '.bebida-3')" class="bebida bebida-3">
+                        <img src="./assets/jesus.jpeg">
+                        <div>
+                            <h2>guarana Jesus</h2>
+                            <p class="descricao">Lata 350ml</p>
+                            <div class="preco-caixa">
+                                <div class="preco display">R$
+                                    <p class="preco main coca">4,40</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div onclick="select('.bebidas', '.bebida-4')" class="bebida bebida-4">
+                        <img src="./assets/coca.jpg">
+                        <div>
+                            <h2>Coca-Cola</h2>
+                            <p class="descricao">Lata 350ml</p>
+                            <div class="preco-caixa">
+                                <div class="preco display">R$
+                                    <p class="preco main coca">4,40</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div onclick="select('.bebidas', '.bebida-5')" class="bebida bebida-5">
+                        <img src="./assets/guarana.jpeg">
+                        <div>
+                            <h2>Guaraná Antarctica</h2>
+                            <p class="descricao">Lata 350ml</p>
+                            <div class="preco-caixa">
+                                <div class="preco display">R$
+                                    <p class="preco main coca">4,40</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div onclick="select('.bebidas', '.bebida-7')" class="bebida bebida-7">
+                        <img src="./assets/laranja.jpeg">
+                        <div>
+                            <h2>Suco de Laranja</h2>
+                            <p class="descricao">Suco Natural<br>600ml</p>
+                            <div class="preco-caixa">
+                                <div class="preco display">R$
+                                    <p class="preco main coca">8,40</p>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+ 
+                </div>
+            </div>
+
+            <div class="container-sobremesa">
+                <h1 class="destaque">Por fim, sua sobremesa</h1>
+                <div class="sobremesas">
+
+                    <div onclick="select('.sobremesas', '.sobremesa-1')" class="sobremesa sobremesa-1">
+                        <img src="./assets/churros.jpeg">
+                        <div>
+                            <h2>Churros</h2>
+                            <p class="descricao">Churros sabor Chocolate</p>
+                            <div class="preco-caixa">
+                                <div class="preco display">R$
+                                    <p class="preco main pudim">9,80</p>
+                                </div>
+                                
+                                <div class="check">
+                                    <img src="./assets/checkmark-circle-outline.svg" class="checa-bebida">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div onclick="select('.sobremesas', '.sobremesa-3')" class="sobremesa sobremesa-3">
+                        <img src="./assets/bolo_chocolate.jpeg">
+                        <div>
+                            <h2>Bolo de Chocolate</h2>
+                            <p class="descricao">Bolo de Chocolate Belga meio amargo</p>
+                            <div class="preco-caixa">
+                                <div class="preco display">R$
+                                    <p class="preco main pudim">11,70</p>
+                                </div>
+                                
+                                <div class="check">
+                                    <img src="./assets/checkmark-circle-outline.svg" class="checa">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div onclick="select('.sobremesas', '.sobremesa-4')" class="sobremesa sobremesa-4">
+                        <img src="./assets/pudim.jpeg">
+                        <div>
+                            <h2>Pudim</h2>
+                            <p class="descricao">Pudim de Leite condensado</p>
+                            <div class="preco-caixa">
+                                <div class="preco display">R$
+                                    <p class="preco main pudim">15,50</p>
+                                </div>
+                                
+                                <div class="check">
+                                    <img src="./assets/checkmark-circle-outline.svg" class="checa-bebida">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div onclick="select('.sobremesas', '.sobremesa-7')" class="sobremesa sobremesa-7">
+                        <img src="./assets/morango.jpeg">
+                        <div>
+                            <h2>Bolo de morango</h2>
+                            <p class="descricao">Bolo de morango rechado com morangos</p>
+                            <div class="preco-caixa">
+                                <div class="preco display">R$
+                                    <p class="preco main pudim">16,80</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="confirm-ordered">
+            <button  onclick="habilitar_botao()" class="botao" disabled><p class="texto_botao">Selecione os 3 itens <br> para fechar o pedido</p></button>
+        </div>
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+
+</html>
